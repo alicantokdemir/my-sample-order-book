@@ -51,8 +51,6 @@ export const subscribeToWSChannel = () => dispatch => {
       return;
     }
 
-    console.log('msg json => ', msgJson);
-
     const [
       BID,
       BID_SIZE,

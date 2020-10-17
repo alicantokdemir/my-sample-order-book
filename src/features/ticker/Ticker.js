@@ -8,8 +8,6 @@ import {
 import styles from '../../App.module.css';
 
 const formatPercentage = val => {
-  console.log('hola => ', val)
-
   if(val === undefined) {
     return '';
   }
