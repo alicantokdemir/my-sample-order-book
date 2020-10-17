@@ -1,8 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import orderBookReducer from '../features/orderBook/orderBookSlice';
+import tradesReducer from '../features/trades/tradesSlice';
+import tickerReducer from '../features/ticker/tickerSlice';
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+    orderBook: orderBookReducer,
+    trades: tradesReducer,
+    ticker: tickerReducer,
   },
 });
